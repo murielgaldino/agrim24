@@ -47,11 +47,20 @@ h3 {
   }
 
 
-  .imagem {
+.imagem {
     flex: 1;
     margin: 10px;
   }
-  .imagem img {
+.imagem img {
     width: 100%;
     height: auto;
   }
+
+
+#caixa4 {
+    flex: auto;
+    width: 15%;
+    height: 50% ;
+    margin: 20px; 
+    margin-top: 30%;
+}

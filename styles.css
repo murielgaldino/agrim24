@@ -5,8 +5,8 @@ body {
 }
 
 header {
-    background-color: #007bff;
-    color: #fff;
+    background-color: #292a2b;
+    color: #ff0000;
     padding: 20px;
     text-align: center;
 }
@@ -49,18 +49,18 @@ h3 {
 
 .imagem {
     flex: 1;
-    margin: 10px;
-  }
-.imagem img {
-    width: 100%;
-    height: auto;
+    margin: 30px;
+    
   }
 
 
-#caixa4 {
-    flex: auto;
-    width: 15%;
-    height: 50% ;
-    margin: 20px; 
-    margin-top: 30%;
+.imagem {
+    border: 3px solid #000;
+    border-radius: 10px;
+}
+
+.borta-fundo {
+    border: 3px solid #000;
+    border-radius: 10px;
+
 }

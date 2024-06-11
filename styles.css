@@ -179,3 +179,12 @@ h3 {
    font-size: 30px;
    text-align: center;
   }
+
+  .banner{
+    width: 150px; /* Defina a largura desejada */
+    height: auto; /* Mantém a proporção original da imagem */
+    border: 1px solid white; /* Adiciona uma borda branca de 5px */
+    border-radius: 70px; /* Define o raio do arredondamento */
+    margin-left: -65%; /* Move a imagem 20 pixels para a esquerda */
+    margin-top: -5%; /* Move a imagem 20 pixels para cima */
+}

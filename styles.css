@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,11 +9,17 @@ body {
 header {
 
     background-color: #292a2b;
-    color: #ff0000;
+    color: #ffffff;
     padding: 20px;
     text-align: center;
     border-radius: 20px
     
+}
+header {
+  font-family: "Anton", sans-serif;
+  font-weight: 400; 
+  font-style: normal;
+  
 }
 
 
@@ -32,6 +39,10 @@ nav ul li a {
     text-decoration: none;
     font-size: 25px;
     font-family: Verdana, sans-serif;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
 }
 
 main {
@@ -40,7 +51,7 @@ main {
 
 footer {
     background-color: #5d6266;
-    color: #333;
+    color: #070707;
     padding: 10px 20px;
     text-align: center;
 }
@@ -84,6 +95,13 @@ h3 {
     font-family:Monospace;
     
   }
+.titulo-manutencao p {
+   font-family: "Anton", sans-serif;
+   font-weight: 400; 
+   font-style: normal;
+   text-align: center;
+   color: #ffffff;
+  }
 
   .coluna {
 
@@ -106,11 +124,13 @@ h3 {
   }
 
   .titulo-manutencao{
-    font-family: Arial, sans-serif;
+    font-family: "Anton", sans-serif;
+    font-weight: 400; 
+    font-style: normal;
     text-align: center;
-    color:#ff0000;
+    color:#f0f0f0;
     font-size: 30px
-    
+
   }
 
   .titulo-manutencao{
@@ -175,9 +195,23 @@ h3 {
   }
   
   .instalacao p {
-   color: #ff0000;
+   color: #ffffff;
    font-size: 30px;
    text-align: center;
+  }
+  .titulo-instalacao p{
+    font-family: Verdana, sans-serif;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .titulo-instalacao {
+    background-color: #292a2b;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px
+    
   }
 
   .banner{
@@ -185,6 +219,6 @@ h3 {
     height: auto; /* Mantém a proporção original da imagem */
     border: 1px solid white; /* Adiciona uma borda branca de 5px */
     border-radius: 70px; /* Define o raio do arredondamento */
-    margin-left: -65%; /* Move a imagem 20 pixels para a esquerda */
+    margin-left: -55%; /* Move a imagem 20 pixels para a esquerda */
     margin-top: -5%; /* Move a imagem 20 pixels para cima */
 }

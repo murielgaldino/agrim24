@@ -215,10 +215,15 @@ h3 {
   }
 
   .banner{
-    width: 150px; /* Defina a largura desejada */
-    height: auto; /* Mantém a proporção original da imagem */
-    border: 1px solid white; /* Adiciona uma borda branca de 5px */
-    border-radius: 70px; /* Define o raio do arredondamento */
-    margin-left: -55%; /* Move a imagem 20 pixels para a esquerda */
-    margin-top: -5%; /* Move a imagem 20 pixels para cima */
+    width: 150px; 
+    height: auto;
+    border: 1px solid white;
+    border-radius: 70px;
+    margin-left: -55%;
+    margin-top: -5%; 
+}
+
+.cetaPraCima{
+  position: fixed;
+
 }

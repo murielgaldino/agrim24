@@ -20,6 +20,7 @@
 
         </nav>
         <img src="peixe .png" alt="banner" class="banner" >
+        <button id="back-to-top" onclick="scrollToTop()" class="cetaPraCima">👆</button>
     </header>
     <main>
        <div class="texto-caixa">
@@ -74,7 +75,7 @@
   
     </br>
         <div class="instalacao">
-          <div class="titulo-instalacao" id="instalacao">
+          <div class="titulo-instalacao" id="instalacao" onclick="scrollToTop()">
             <p>INSTALACAO</p>
           </div>
            <div class="texto-instalacao">  
@@ -99,7 +100,25 @@
         </div>
     </br>
 
-    <script src="javaScript.js"></script>
+
+    <script>
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("back-to-top").style.display = "block";
+            } else {
+                document.getElementById("back-to-top").style.display = "none";
+            }
+        }
+        
+        function scrollToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+
     </div>        
     </main>
     <footer>

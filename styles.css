@@ -227,3 +227,11 @@ h3 {
   position: fixed;
 
 }
+
+#back-to-top {
+  border-radius: 50px;
+  font-size: 30px;
+  background-color: #292a2b;
+  padding: 10px 20px; 
+  border: none;
+}

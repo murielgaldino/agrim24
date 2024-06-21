@@ -42,9 +42,10 @@ nav ul li a {
     font-family: "Anton", sans-serif;
     font-weight: 400;
     font-style: normal;
-  
+ }
+nav:hover {
+  transform: scale(1.05);
 }
-
 main {
     padding: 20px;
 }
@@ -215,18 +216,24 @@ h3 {
   }
 
   .banner{
-    width: 150px; 
+    width: 80px; 
     height: auto;
     border: 1px solid white;
     border-radius: 70px;
-    margin-left: -55%;
-    margin-top: -5%; 
+    margin-left: -80%;
+    margin-top: -15%; 
+
 }
 
 .cetaPraCima{
+  all: unset;
   position: fixed;
-
+  border-radius: 50px;
 }
+.cetaPraCima:hover {
+  transform: scale(1.05);
+}
+
 
 #back-to-top {
   border-radius: 50px;
@@ -234,4 +241,33 @@ h3 {
   background-color: #292a2b;
   padding: 10px 20px; 
   border: none;
+}
+.MANUTENÇAO{
+  width: 30%;
+  height: auto;
+  display: flex;
+  border-radius: 50px;
+}
+
+.MANUTENÇAO:hover {
+  transform: scale(1.05);
+}
+.MANUTENÇAO {
+  display: inline-block;
+  vertical-align: middle; 
+  margin: 10px;
+}
+.instalacao-img{
+  width: 30%;
+  height: auto;
+  display: flex;
+  border-radius: 50px;
+}
+.instalacao-img{
+  display: inline-block;
+  vertical-align: middle; 
+  margin: 10px;
+}
+.instalacao-img:hover {
+  transform: scale(1.05);
 }

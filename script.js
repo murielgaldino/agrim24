@@ -11,4 +11,22 @@ function scrollFunction() {
 function scrollToTop() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
-}
+};
+
+const fecebook = document.getElementById('fecebook');
+
+fecebook.addEventListener('click', function(){
+    window.location.href = 'https://www.facebook.com/muriel.ribeiro.75'
+});
+
+const instagram = document.getElementById('instagram');
+
+instagram.addEventListener('click', function(){
+    window.location.href = "https://www.instagram.com/muriel.god/"
+});
+
+const linkedin = document.getElementById('linkedin');
+
+linkedin.addEventListener('click', function(){
+    window.location.href = "https://www.linkedin.com/in/muriel-r-galdino-0147b6224/"
+});

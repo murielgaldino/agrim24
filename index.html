@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="ico/peixe.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -110,12 +109,19 @@
     <button id="back-to-top" onclick="scrollToTop()" class="cetaPraCima">👆</button>
     </div>        
     </main>
-    <div class="redes-socias">
+    
+    <div class="redes-socias" >
       <ul>
-        <li><i class="fab fa-facebook-f" ></i></li>
-        <li><i class="fab fa-twitter"></i></li>
-        <li><i class="fab fa-instagram"></i></li>
-        <li><i class="fab fa-linkedin-in"></i></li>
+        <button id="fecebook" class="redes" >
+          <li><i class="fab fa-facebook-f" ></i></li>
+        </button>
+
+        <button id="instagram" class="redes"> 
+         <li><i class="fab fa-instagram"></i></li>
+        </button>
+        <button id="linkedin" class="redes" >  
+         <li><i class="fab fa-linkedin-in"></i></li>
+        </button> 
      </ul>
     </div>       
     <footer>
@@ -123,7 +129,8 @@
 
     </footer>
     <icon>
-      s
+
     </icon>
+    <script src="script.js"></script>
 </body>
 </html>

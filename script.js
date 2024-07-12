@@ -16,7 +16,7 @@ function scrollToTop() {
 const fecebook = document.getElementById('fecebook');
 
 fecebook.addEventListener('click', function(){
-    window.location.href = 'https://www.facebook.com/muriel.ribeiro.75'
+    window.location.href = 'https://www.facebook.com/muriel.ribeiro.75/about'
 });
 
 const instagram = document.getElementById('instagram');

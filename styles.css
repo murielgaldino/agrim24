@@ -223,7 +223,6 @@ h3 {
   .banner{
     width: 80px; 
     height: auto;
-
     border-radius: 70px;
     margin-left: -80%;
     margin-top: -70%; 
@@ -262,6 +261,21 @@ h3 {
   vertical-align: middle; 
   margin: 10px;
 }
+.MANUTENÇAO1{
+  width: 20%;
+  height: auto;
+  display: flex;
+  border-radius: 50px;
+}
+
+.MANUTENÇAO1:hover {
+  transform: scale(1.05);
+}
+.MANUTENÇAO1 {
+  display: inline-block;
+  vertical-align: middle; 
+  margin: 10px;
+}
 .instalacao-img{
   width: 30%;
   height: auto;
@@ -276,7 +290,9 @@ h3 {
 .instalacao-img:hover {
   transform: scale(1.05);
 }
-
+.texto-instalacao header{
+  border-radius: 25px;
+}
 .redes-socias *{
   margin: 0;
   padding: 0;
@@ -384,4 +400,8 @@ h3 {
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+}
+
+.texto-manutencao header{
+  border-radius: 20px;
 }

@@ -1,4 +1,5 @@
-window.onscroll = function() {scrollFunction()};
+
+ssswindow.onscroll = function() {scrollFunction()};
         
 function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -30,3 +31,10 @@ const linkedin = document.getElementById('linkedin');
 linkedin.addEventListener('click', function(){
     window.location.href = "https://www.linkedin.com/in/muriel-r-galdino-0147b6224/"
 });
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-GCLHRK6ERF');
+

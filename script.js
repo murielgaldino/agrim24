@@ -32,9 +32,5 @@ linkedin.addEventListener('click', function(){
     window.location.href = "https://www.linkedin.com/in/muriel-r-galdino-0147b6224/"
 });
 
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
 
-gtag('config', 'G-GCLHRK6ERF');
 

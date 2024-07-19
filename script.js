@@ -1,36 +1,30 @@
+// Função para controlar exibição do botão "Back to Top" com scroll
+window.onscroll = function() {
+    scrollFunction();
+};
 
-ssswindow.onscroll = function() {scrollFunction()};
-        
 function scrollFunction() {
+    const backToTopButton = document.querySelector("#back-to-top");
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("back-to-top").style.display = "block";
+        backToTopButton.style.display = "block";
     } else {
-        document.getElementById("back-to-top").style.display = "none";
+        backToTopButton.style.display = "none";
     }
 }
 
+// Função para rolar até o topo da página
 function scrollToTop() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
-};
+}
 
-const fecebook = document.getElementById('fecebook');
-
-fecebook.addEventListener('click', function(){
-    window.location.href = 'https://www.facebook.com/muriel.ribeiro.75/about'
+// Delegação de eventos para os botões das redes sociais
+document.addEventListener('click', function(event) {
+    if (event.target.matches('#fecebook')) {
+        window.location.href = 'https://www.facebook.com/muriel.ribeiro.75/about';
+    } else if (event.target.matches('#instagram')) {
+        window.location.href = 'https://www.instagram.com/muriel.god/';
+    } else if (event.target.matches('#linkedin')) {
+        window.location.href = 'https://www.linkedin.com/in/muriel-r-galdino-0147b6224/';
+    }
 });
-
-const instagram = document.getElementById('instagram');
-
-instagram.addEventListener('click', function(){
-    window.location.href = "https://www.instagram.com/muriel.god/"
-});
-
-const linkedin = document.getElementById('linkedin');
-
-linkedin.addEventListener('click', function(){
-    window.location.href = "https://www.linkedin.com/in/muriel-r-galdino-0147b6224/"
-});
-
-
-

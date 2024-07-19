@@ -295,117 +295,40 @@ h3 {
 .texto-instalacao header{
   border-radius: 25px;
 }
-.redes-socias *{
-  margin: 0;
-  padding: 0;
-  list-style: none;
+
+.texto-manutencao header{
+  border-radius: 20px;
 }
-.redes-socias body{
-  display: flex;
-  height: 100vh;
+
+/* Estilo para os botões de redes sociais */
+.redes-sociais {
   text-align: center;
-  align-items: center;
-  justify-content: center;
-  background: #262626;
-}
-.redes-socias ul{
-  display: flex;
-}
-.redes-socias ul li{
-  position: relative;
-  display: block;
-  color: #666;
-  font-size: 30px;
-  height: 60px;
-  width: 60px;
-  background: #171515;
-  line-height: 60px;
-  border-radius: 50%;
-  margin: 0 15px;
-  cursor: pointer;
-  transition: .5s;
-}
-.redes-socias ul li:before{
-  position: absolute;
-  content: '';
-  top: 0;
-  left: 0;
-  height: inherit;
-  width: inherit;
-  border-radius: 50%;
-  transform: scale(.9);
-  z-index: -1;
-  transition: .5s;
-}
-.redes-socias ul li:nth-child(1):before{
-  background: #4267B2;
-}
-.redes-socias ul li:nth-child(2):before{
-  background: #1DA1F2;
-}
-.redes-socias ul li:nth-child(3):before{
-  background: #E1306C;
-}
-.redes-socias ul li:nth-child(4):before{
-  background: #2867B2;
-}
-.redes-socias ul li:hover:before{
-  filter: blur(3px);
-  transform: scale(1.2);
-  /* box-shadow: 0 0 15px #d35400; */
-}
-.redes-socias ul li:nth-child(1):hover:before{
-  box-shadow: 0 0 15px #4267B2;
-}
-.redes-socias ul li:nth-child(2):hover:before{
-  box-shadow: 0 0 15px #1DA1F2;
-}
-.redes-socias ul li:nth-child(3):hover:before{
-  box-shadow: 0 0 15px #E1306C;
-}
-.redes-socias ul li:nth-child(4):hover:before{
-  box-shadow: 0 0 15px #2867B2;
+  margin-top: 20px;
 }
 
-.redes-socias ul li:nth-child(1):hover{
-  color: #456cba;
-  box-shadow: 0 0 15px #4267B2;
-  text-shadow: 0 0 15px #4267B2;
-}
-.redes-socias ul li:nth-child(2):hover{
-  color: #26a4f2;
-  box-shadow: 0 0 15px #1DA1F2;
-  text-shadow: 0 0 15px #1DA1F2;
-}
-.redes-socias ul li:nth-child(3):hover{
-  color: #e23670;
-  box-shadow: 0 0 15px #E1306C;
-  text-shadow: 0 0 15px #E1306C;
-}
-.redes-socias ul li:nth-child(4):hover{
-  color: #2a6cbb;
-  box-shadow: 0 0 15px #2867B2;
-  text-shadow: 0 0 15px #2867B2;
+.redes-sociais ul {
+  display: inline-block;
+  padding: 0;
 }
 
-
-.redes-socias{
-  margin-left: 50px;
-
+.redes-sociais ul li {
+  display: inline-block;
+  margin: 0 10px;
 }
 
 .redes {
   background-color: transparent;
   border: none;
   color: #000;
-  padding: 10px 20px;
-  font-size: 16px;
+  padding: 10px 15px;
+  font-size: 30px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
-.texto-manutencao header{
-  border-radius: 20px;
+.redes:hover {
+  background-color: #ccc;
+  border-radius: 50%;
 }
 
 .loader {

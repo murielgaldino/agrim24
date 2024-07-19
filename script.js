@@ -28,3 +28,13 @@ document.addEventListener('click', function(event) {
         window.location.href = 'https://www.linkedin.com/in/muriel-r-galdino-0147b6224/';
     }
 });
+
+const fish = document.querySelector('.fish');
+
+fish.addEventListener('mouseover', () => {
+  fish.style.animationPlayState = 'paused';
+});
+
+fish.addEventListener('mouseout', () => {
+  fish.style.animationPlayState = 'running';
+});

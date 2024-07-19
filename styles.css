@@ -353,3 +353,36 @@ button:hover {
   background-color: #3498db;
   color: white;
 }
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.aquarium {
+  width: 100%;
+  height: 100%;
+  background-color: #292a2b; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.fish {
+  width: 90px; 
+  height: auto;
+  animation: swim 5s linear infinite;
+
+  margin-top: -50px; 
+
+}
+
+@keyframes swim {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
